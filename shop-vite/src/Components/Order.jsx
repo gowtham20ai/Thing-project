@@ -16,7 +16,7 @@ const Order = () => {
     try {
 
       setLoading(true)
-      const res = await fetch(`https://dummyjson.com/Product/${dataId.product_id}`)
+      const res = await fetch(`https://dummyjson.com/products/${dataId.product_id}`)
       const data = await res.json();
       setData(data)
       setLoading(false)

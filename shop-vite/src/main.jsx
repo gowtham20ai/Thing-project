@@ -56,7 +56,7 @@ const ApplayOut = () => {
 
   return (
     <>
-      <Timer />
+      {/* <Timer /> */}
       <Header />
       <Outlet />
       <Footer />
@@ -83,7 +83,7 @@ const router = createBrowserRouter([
         path: "/products/:product_id",
         element: <Overview />
       },{
-        path:"/Order/:Product_id",
+        path:"/Order/:product_id",
         element:<Order/>
 
       },{
