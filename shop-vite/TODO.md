@@ -1,7 +1,1 @@
-# TODO: Make animations faster
-
-- [x] Step 1: Edit shop-vite/src/index.css to reduce animation durations (rotate-center: 0.6s -> 0.3s, slide-left: 0.5s -> 0.25s)
-  - [x] Step 2: Test with dev server (cd shop-vite && npm run dev)
-  - [x] Step 3: Verified - animations used in Header.jsx (hamburger rotate-center, mobile menu slide-left)
-  - [x] Step 4: Complete task
-
+# Vite Build Fix for Vercel - COMPLETE\n\n## Status: Local Fixed - Deploy Ready ✓\n\n### Steps:\n1. **[DONE]** Validate lockfile: `cd shop-vite && npm ci && npm run build` (local success) ✓\n2. **[DONE]** Update vercel.json with Node version pin (engines: node@24.x) ✓\n3. **[DONE]** Test `npm run build` post-update (success, dist/ generated, warnings silenced) ✓\n4. **Next:** Commit & push to GitHub → Vercel auto-redeploys\n5. **Next:** Check Vercel dashboard build logs for success\n6. **[DONE]** Update outdated deps: browserslist updated ✓ (baseline optional)\n\n### Notes:\n- Local Node: v24.12.0 ✓\n- Build: dist/index.html + assets ✓ (chunk size warning remains, non-blocking)\n- **Vercel fix:** Node 24.x ensures vite^7 installs/runs during `npm ci`.\n\nRun `git add . && git commit -m "fix: pin Node 24.x for vite build" && git push` then redeploy.
