@@ -34,7 +34,7 @@ const G = () => {
       <div className='bg-[url(https://ik.imagekit.io/8wxvbajv2/cat-img.png?updatedAt=1749636471855)] w-[100px] h-[200px] 
     shadow-2xl  shadow-orange-400 '>
 
-        <h1 className='bg-[url()]'>Navbar noubo;vt7xr7cuy</h1>
+        <h1 className='bg-[url()]'>Navbar</h1>
 
       </div>
     </>
