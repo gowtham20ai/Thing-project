@@ -12,8 +12,8 @@
 
 
 .rotate-center {
-	-webkit-animation: rotate-center 0.6s ease-in-out both;
-	        animation: rotate-center 0.6s ease-in-out both;
+	-webkit-animation: rotate-center 0.3s ease-in-out both;
+	        animation: rotate-center 0.3s ease-in-out both;
 }
 
 /* ----------------------------------------------
@@ -51,8 +51,8 @@
 
 
 .slide-left {
-	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-left 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
