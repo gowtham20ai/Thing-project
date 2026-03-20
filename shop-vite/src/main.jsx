@@ -56,7 +56,7 @@ const ApplayOut = () => {
 
   return (
     <>
-      {/* <Timer /> */}
+      <Timer />
       <Header />
       <Outlet />
       <Footer />
